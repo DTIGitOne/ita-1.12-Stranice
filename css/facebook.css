@@ -192,4 +192,138 @@ body {
    align-items: center;
    justify-content: center;
    width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+#createAPage {
+   font-weight: bold;
+   cursor: pointer;
+   padding-right: 3px;
+}
+
+.bottomFooter {
+   display: flex;
+   height: 100%;
+   width: 970px;
+   align-items: center;
+   margin-left: 470px;
+   margin-right: 470px;
+   flex-direction: column;
+}
+
+#bottomFooterLanguage1 {
+   display: flex;
+   height: 30%;
+   width: 100%;
+   margin-bottom: 5px;
+}
+
+#bottomFooterDivision {
+   display: flex;
+   height: 1%;
+   width: 100%;
+   margin: 10px 0px 10px 0px;
+}
+
+#bottomFooterLinks {
+   display: flex;
+   height: 70%;
+   width: 100%;
+   flex-direction: column;
+}
+
+#bottomFooterLanguage2 {
+   box-sizing: border-box;
+   display: flex;
+   align-items: flex-end;
+   font-size: 14px;
+   color: gray;
+}
+
+#bottomFooterLine {
+   box-sizing: border-box;
+   border: 0.01px solid #ccd0d5;
+   flex-direction: column;
+   width: 100%;
+   height: 0.1px;
+   align-items: end;
+}
+
+.language1 {
+   font-size: 13px;
+   color: gray;
+   padding-left: 8px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#moreLanguages {
+   padding-left: 18px;
+   display: flex;
+   align-items: flex-end;
+   height: 100%;
+   width: 30px;
+}
+
+#plusSign {
+   display: flex;
+   width: 20px;
+   border: 0.1px solid #ccd0d5;
+   height: 16px;
+   cursor: pointer;
+   justify-content: center;
+   font-weight: 900;
+   padding: 1px 3px 1px 3px;
+   background-color: #f5f6f7;
+}
+
+.language2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   color: gray;
+   padding-left: 15px;
+   cursor: pointer;
+}
+
+.language2FirstWords {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   color: gray;
+   padding-left: 0px;
+   cursor: pointer;
+}
+
+#firstLinks {
+   display: flex;
+   flex-wrap: wrap;
+   flex: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   height: 40%;
+   width: 100%;
+   margin-top: 7px;
+}
+
+.language1FirstWords {
+   font-size: 13px;
+   color: gray;
+   padding-left: 0px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#meta2023Flex {
+   display: flex;
+   height: 50px;
+   width: 100%;
+   flex-direction: row;
+   justify-content: flex-start;
+}
+
+#meta2023 {
+   font-family: Arial, Helvetica, sans-serif;
+   color: gray;
+   font-size: 11px;
+   margin-top: 12px;
 }
